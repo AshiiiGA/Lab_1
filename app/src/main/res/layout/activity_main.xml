@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="165dp"
-        android:layout_height="41dp"
+        android:layout_width="227dp"
+        android:layout_height="42dp"
         android:text="@string/name"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,5 +30,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title"
         app:layout_constraintVertical_bias="0.128" />
+
+    <TextView
+        android:id="@+id/Change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintVertical_bias="0.134" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
